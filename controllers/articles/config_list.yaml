@@ -1,0 +1,12 @@
+title: Articles
+modelClass: Bishopm\Examening\Models\Article
+list: $/bishopm/examening/models/article/columns.yaml
+recordUrl: 'bishopm/examening/articles/update/:id'
+noRecordsMessage: 'No articles have been published yet'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

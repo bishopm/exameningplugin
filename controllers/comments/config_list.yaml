@@ -1,0 +1,15 @@
+title: Comments
+modelClass: Bishopm\Examening\Models\Comment
+list: $/bishopm/examening/models/comment/columns.yaml
+recordUrl: bishopm/examening/comments
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+defaultSort:
+    column: published_at
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

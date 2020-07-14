@@ -1,0 +1,10 @@
+name: Resources
+form: $/bishopm/examening/models/resource/fields.yaml
+modelClass: Bishopm\Examening\Models\Resource
+defaultRedirect: bishopm/examening/resources
+create:
+    redirect: 'bishopm/examening/resources/update/:id'
+    redirectClose: bishopm/examening/resources
+update:
+    redirect: bishopm/examening/resources
+    redirectClose: bishopm/examening/resources

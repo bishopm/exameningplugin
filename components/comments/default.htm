@@ -1,0 +1,32 @@
+<div id="commentsDiv">
+    <h4>Comments</h4>
+    {% partial '@commentlist' comments = __SELF__.comments %}
+</div>
+{% if user %}
+    <form 
+        data-request="{{__SELF__}}::onSave"
+        data-request-success="$('#commentarea').val('')"
+        data-request-data="user: {{user.id}},entity_id: {{__SELF__.entity_id}}"
+        data-request-update="'@commentlist': '#allcomments'">
+        <label>New comment</label>
+        <textarea id="commentarea" name="comment" style="width:100%;"></textarea>
+        <button>Post comment</button>
+    </form>
+    <button data-request="onLogout">Sign out as {{user.name}} {{user.surname}}</button>
+    <p>
+    {% flash %}
+        {{ message }}
+    {% endflash %}
+    </p>
+{% else %}
+    <h5>Login to comment</h5>
+    {% for name, link in social_login_links %}
+        {% if name == 'Google' %}
+            <a href="{{ link }}"><i class="fab fa-2x fa-google" style="color:#DB4437;"></i></a>
+        {% elseif name == 'Facebook' %}
+            <a href="{{ link }}"><i class="fab fa-2x fa-facebook-square" style="color:#3b5998;"></i></a>
+        {% elseif name == 'Twitter' %}
+            <a href="{{ link }}"><i class="fab fa-2x fa-twitter" style="color:lightblue;"></i></a>
+        {% endif %}
+    {% endfor %}
+{% endif %}

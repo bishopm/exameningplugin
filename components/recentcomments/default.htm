@@ -1,0 +1,7 @@
+{% set recentcomments = __SELF__.recentcomments %}
+<h5>Recent comments</h5>
+<ul class="list-unstyled">
+{% for recentcomment in recentcomments %}
+    <li class="pb-2"><span class="text-black">{{recentcomment.user.name}} {{recentcomment.user.surname}} <small>({{recentcomment.published_at}})</small></span></li>
+{% endfor %}
+</ul>

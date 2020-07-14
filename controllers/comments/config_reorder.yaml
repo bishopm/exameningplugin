@@ -1,0 +1,5 @@
+title: Comments
+modelClass: Bishopm\Examening\Models\Comment
+nameFrom: published_at
+toolbar:
+    buttons: reorder_toolbar

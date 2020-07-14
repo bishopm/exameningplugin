@@ -1,0 +1,11 @@
+name: Articles
+modelClass: Bishopm\Examening\Models\Article
+form: $/bishopm/examening/models/article/fields.yaml
+defaultRedirect: bishopm/examening/articles
+create:
+    redirect: 'bishopm/examening/articles/update/:id'
+    redirectClose: bishopm/examening/articles
+update:
+    redirect: bishopm/examening/articles
+    redirectClose: bishopm/examening/articles
+preview: {  }

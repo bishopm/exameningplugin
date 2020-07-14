@@ -1,0 +1,5 @@
+<ul class="list-unstyled" id="allcomments">
+    {% for comment in comments %}
+        <li class="pb-2"><span class="text-black">{{comment.user.name}} {{comment.user.surname}} <small>({{comment.published_at}})</small></span><br>{{ comment.comment }}</li>
+    {% endfor %}
+</ul>

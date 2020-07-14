@@ -1,0 +1,4 @@
+title: Articles
+modelClass: Bishopm\Examening\Models\Article
+toolbar:
+    buttons: reorder_toolbar

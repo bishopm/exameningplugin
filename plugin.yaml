@@ -1,0 +1,28 @@
+plugin:
+    name: 'bishopm.examening::lang.plugin.name'
+    description: 'bishopm.examening::lang.plugin.description'
+    author: bishopm
+    icon: oc-icon-pencil-square-o
+    homepage: ''
+navigation:
+    examening-menu:
+        label: Examening
+        url: bishopm/examening/articles
+        icon: icon-search
+        sideMenu:
+            articles-menu-item:
+                label: Articles
+                url: bishopm/examening/articles
+                icon: icon-newspaper-o
+            comment-menu-item:
+                label: Comments
+                url: bishopm/examening/comments
+                icon: icon-comments-o
+            resource-menu-item:
+                label: Resources
+                url: bishopm/examening/resources
+                icon: icon-link
+            video-menu-item:
+                label: Videos
+                url: /bishopm/examening/videos
+                icon: icon-film

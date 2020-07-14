@@ -1,0 +1,10 @@
+name: Videos
+modelClass: Bishopm\Examening\Models\Video
+form: $/bishopm/examening/models/video/fields.yaml
+defaultRedirect: bishopm/examening/videos
+create:
+    redirect: 'bishopm/examening/videos/update/:id'
+    redirectClose: bishopm/examening/videos
+update:
+    redirect: bishopm/examening/videos
+    redirectClose: bishopm/examening/videos

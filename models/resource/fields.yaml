@@ -1,0 +1,15 @@
+fields:
+    url:
+        label: Url
+        span: full
+        required: 1
+        type: text
+    title:
+        label: Title
+        span: full
+        type: text
+    description:
+        label: 'Detailed description'
+        span: full
+        size: huge
+        type: richeditor

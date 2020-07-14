@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: id
+        type: number
+    user_id:
+        label: user_id
+        type: number
+    published_at:
+        label: published_at
+        type: datetime
+        sortable: true
+    comment:
+        label: comment
+        type: text
+    entity_type:
+        label: entity_type
+        type: text
+    entity_id:
+        label: entity_id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime

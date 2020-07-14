@@ -1,0 +1,12 @@
+title: Videos
+modelClass: Bishopm\Examening\Models\Video
+list: $/bishopm/examening/models/video/columns.yaml
+recordUrl: 'bishopm/examening/videos/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

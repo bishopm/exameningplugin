@@ -1,0 +1,15 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        placeholder: Title
+        type: text
+    youtube_id:
+        label: 'Youtube ID'
+        span: auto
+        type: text
+    published_at:
+        label: 'Published at'
+        span: auto
+        mode: date
+        type: datepicker

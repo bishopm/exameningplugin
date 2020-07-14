@@ -1,0 +1,20 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table bishopm_examening_comments'
+    - builder_table_create_bishopm_examening_comments.php
+1.0.3:
+    - 'Created table bishopm_examening_articles'
+    - builder_table_create_bishopm_examening_articles.php
+1.0.4:
+    - 'Updated table bishopm_examening_articles'
+    - builder_table_update_bishopm_examening_articles.php
+1.0.5:
+    - 'Created table bishopm_examening_videos'
+    - builder_table_create_bishopm_examening_videos.php
+1.0.6:
+    - 'Updated table bishopm_examening_videos'
+    - builder_table_update_bishopm_examening_videos.php
+1.0.7:
+    - 'Created table bishopm_examening_resources'
+    - builder_table_create_bishopm_examening_resources.php
